@@ -1,0 +1,70 @@
+{
+  "employees": [
+    {
+      "name": "Sarah",
+      "jobTitle": "CEO",
+      "boss": null,
+      "salary": "200000"
+    },
+    {
+      "name": "xavier@dundermifflin.net",
+      "jobTitle": "Sales Operator",
+      "boss": "Sarah",
+      "salary": "100000"
+    },
+    {
+      "name": "Alicia",
+      "jobTitle": "Brand Manager",
+      "boss": "Sarah",
+      "salary": "50000"
+    },
+    {
+      "name": "Kelly",
+      "jobTitle": "Marketing Specialist",
+      "boss": "Alicia",
+      "salary": "49000"
+    },
+    {
+      "name": "Sal",
+      "jobTitle": "Outreach Specialist",
+      "boss": "Alicia",
+      "salary": "45000"
+    },
+    {
+      "name": "rick@astley.com",
+      "jobTitle": "Moral Support Specialist",
+      "boss": "Alicia",
+      "salary": "1000"
+    },
+    {
+      "name": "Maria",
+      "jobTitle": "Market Researcher",
+      "boss": "Xavier",
+      "salary": "70000"
+    },
+    {
+      "name": "Morty",
+      "jobTitle": "Advenurer",
+      "boss": "Xavier",
+      "salary": "-10"
+    },
+    {
+      "name": "Bill",
+      "jobTitle": "Janitor?",
+      "boss": "Xavier",
+      "salary": "400000"
+    },
+    {
+      "name": "jared@piedpiper.com",
+      "jobTitle": "Assistant",
+      "boss": "Bill",
+      "salary": "20000"
+    },
+    {
+      "name": "Nick",
+      "jobTitle": "Developer",
+      "boss": "Bill",
+      "salary": "60000"
+    }
+  ]
+}
