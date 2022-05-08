@@ -1,14 +1,16 @@
 {
-    "name": "sc-assessment",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT",
-    "devDependencies": {
-        "@types/node": "^16.4.3",
-        "typescript": "^4.3.5"
-    },
-    "scripts": {
-        "build": "tsc --build",
-        "start": "yarn build && node dist/index.js"
-    }
+  "name": "sc-assessment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.4.3",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "start": "yarn build && node dist/index.js",
+    "dev": "nodemon --watch './**/*.ts' --exec 'ts-node' src/index.ts"
+  }
 }
