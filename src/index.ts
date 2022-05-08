@@ -25,9 +25,11 @@ import { getBoss, getSubordinates } from './getEmployees';
 	promoteEmployee(rootNode, `Jared`);
 	demoteEmployee(rootNode, `Xavier`, `Maria`);
 
-	function printGetBossLine(boss: string) {
+	function printGetBossLine(employee: string) {
 		console.log(
-			`[getBoss]: ${boss}'s boss is ${getBoss(rootNode, `${boss}`).name}`
+			`[getBoss]: ${employee}'s boss is ${
+				getBoss(rootNode, `${employee}`).name
+			}`
 		);
 	}
 	printGetBossLine(`Bill`);
