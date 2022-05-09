@@ -27,9 +27,7 @@ import { getBoss, getSubordinates } from './getEmployees';
 
 	function printGetBossLine(employee: string) {
 		console.log(
-			`[getBoss]: ${employee}'s boss is ${
-				getBoss(rootNode, `${employee}`).name
-			}`
+			`[getBoss]: ${employee}'s boss is ${getBoss(rootNode, employee).name}`
 		);
 	}
 	printGetBossLine(`Bill`);
@@ -38,7 +36,7 @@ import { getBoss, getSubordinates } from './getEmployees';
 		console.log(
 			`[getSubordinate]: ${boss}'s subordinates are ${getSubordinates(
 				rootNode,
-				`${boss}`
+				boss
 			)
 				.map(subordinate => subordinate.name)
 				.join(`, `)}\n`
